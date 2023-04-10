@@ -62,7 +62,27 @@ class DetailRestaurantScreen extends StatelessWidget {
                   width: 5,
                 ),
                 Text(
-                  restaurant.location,
+                  'Lokasi: ${restaurant.location}',
+                  style: const TextStyle(fontSize: 14),
+                ),
+              ],
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(left: 15, top: 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Image.asset(
+                  'assets/icon/star.png',
+                  height: 18,
+                  width: 18,
+                ),
+                const SizedBox(
+                  width: 5,
+                ),
+                Text(
+                  'Rating: ${restaurant.rating.toString()}',
                   style: const TextStyle(fontSize: 14),
                 ),
               ],
@@ -228,7 +248,27 @@ class DetailRestaurantScreen extends StatelessWidget {
                   width: 5,
                 ),
                 Text(
-                  restaurant.location,
+                  'Lokasi: ${restaurant.location}',
+                  style: const TextStyle(fontSize: 14),
+                ),
+              ],
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(left: 15, top: 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Image.asset(
+                  'assets/icon/star.png',
+                  height: 18,
+                  width: 18,
+                ),
+                const SizedBox(
+                  width: 5,
+                ),
+                Text(
+                  'Rating: ${restaurant.rating.toString()}',
                   style: const TextStyle(fontSize: 14),
                 ),
               ],

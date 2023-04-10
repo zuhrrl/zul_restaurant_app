@@ -77,7 +77,7 @@ class _ListRestaurantScreenState extends State<ListRestaurantScreen> {
                       width: 5,
                     ),
                     Text(
-                      location,
+                      'Lokasi: $location',
                       style: const TextStyle(fontSize: 14),
                     ),
                   ],
@@ -97,7 +97,7 @@ class _ListRestaurantScreenState extends State<ListRestaurantScreen> {
                       width: 5,
                     ),
                     Text(
-                      rating.toString(),
+                      'Rating: ${rating.toString()}',
                       style: const TextStyle(fontSize: 14),
                     ),
                   ],
